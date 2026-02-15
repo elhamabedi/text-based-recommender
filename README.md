@@ -2,30 +2,30 @@
 
 A text-based recommender system that predicts restaurant ratings from user reviews using advanced word and document embeddings. Implemented as part of Natural Language Processing course.
 
-##### Assignment Overview
+### Assignment Overview
 This project implements a simplified collaborative filtering recommender system that predicts user ratings (1–5 stars) for restaurants based solely on textual reviews. The system leverages multiple embedding techniques to capture semantic meaning from text and employs regression models to predict ratings.
 
-##### Key Features
-###### Dataset Processing: Extracts a high-quality subset from Yelp Open Dataset with:
+### Key Features
+#### Dataset Processing: Extracts a high-quality subset from Yelp Open Dataset with:
 Users who reviewed ≥100 restaurants
 Restaurants reviewed by ≥1,000 users
 Chronological train/validation/test split (20k/1,962/1,962 reviews)
-###### Embedding Techniques:
+#### Embedding Techniques:
 Word2Vec (Skip-gram & CBOW)
 FastText (with subword information for OOV handling)
 Doc2Vec (Distributed Memory & Distributed Bag of Words)
-###### Document Representation:
+#### Document Representation:
 Word embedding aggregation (average/sum)
 Direct paragraph vector learning
-###### Hyperparameter Optimization:
+#### Hyperparameter Optimization:
 Optuna-based tuning for 6 embedding configurations
 Optimized parameters: vector size, window, epochs, min_count, learning rate, max_iter, max_depth
-###### Comprehensive Evaluation:
+#### Comprehensive Evaluation:
 Regression metrics: R², MAE, RMSE, MAPE, CCC
 Ranking metrics: NDCG@k (k=10,20,50), Spearman ρ, Kendall τ
 Pearson correlation for linear relationship analysis
 
-##### Project Structure
+### Project Structure
 ```
 Text-Based Recommender/
 ├── dataset/                    # Processed datasets and results
@@ -48,7 +48,7 @@ Text-Based Recommender/
 ├── README.md                   # This file
 ```
 
-##### References
+### References
 1.Mikolov, T., et al. (2013). Distributed representations of words and phrases and their compositionality. NIPS.
 
 
