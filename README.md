@@ -49,9 +49,17 @@ Text-Based Recommender/
 ```
 
 ##### References
-Mikolov, T., et al. (2013). Distributed representations of words and phrases and their compositionality. NIPS.
-Bojanowski, P., et al. (2017). Enriching word vectors with subword information. TACL.
-Le, Q. & Mikolov, T. (2014). Distributed representations of sentences and documents. ICML.
-Hasanzadeh, S., et al. (2020). Review-based recommender systems: A proposed rating prediction scheme using word embedding representation of reviews. The Computer Journal.
+1.Mikolov, T., et al. (2013). Distributed representations of words and phrases and their compositionality. NIPS.
+
+
+2.Bojanowski, P., et al. (2017). Enriching word vectors with subword information. TACL.
+
+
+3.Le, Q. & Mikolov, T. (2014). Distributed representations of sentences and documents. ICML.
+
+
+4.Hasanzadeh, S., et al. (2020). Review-based recommender systems: A proposed rating prediction scheme using word embedding representation of reviews. The Computer Journal.
+
+
 
 Note: This is an academic implementation for educational purposes. The Yelp dataset is used under Yelp's Academic Dataset License Agreement.
